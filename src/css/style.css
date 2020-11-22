@@ -312,11 +312,54 @@ template {
   box-sizing: border-box; }
 
 html {
-  font-size: 14px; }
+  font-size: 18px; }
 
 body {
-  font-family: 'Futura Book', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1rem; }
 
 img {
   max-width: 100%; }
+
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  padding-top: 2.66rem;
+  padding-bottom: 1.62rem; }
+  .header__container {
+    max-width: 1293px; }
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .menu__logo {
+    display: flex; }
+  .menu__link {
+    text-decoration: none; }
+
+.nav__item {
+  margin-right: 43.19px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: #515151;
+  text-decoration: none; }
+
+.logo__image {
+  margin-right: 13px; }
+
+.logo__title {
+  vertical-align: top;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.15em;
+  color: #515151; }
